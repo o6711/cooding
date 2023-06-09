@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Пароль</title>
+    <style>
+        body {
+            background-color: lightblue;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <p style="font-size: 30pt;">НАЙДЕН АЛМАЗ МОНАХ</p>
+    <p>Для входа на сайт введите, пажалуйста, пароль.</p>
+    <p>Пароль:<input id="passwordBox" type="password"/></p>
+    <a href="task1.html">
+        Жми здесь, чтобы отправить пароль и посмотреть сайт.
+    </a>
+</body>
+</html>
+<script>
+    function checkPassword()
+    {
+        var password = document.getElementById("passwordBox")
+        var passwordEntered = passwordEntered = password.value;
+        if(passwordText == "Ernest300")
+        {
+            return true;
+        }
+        else
+        {
+            alert("Доступ запрещен! Неверный пароль!");
+            return false;
+        }
+    }
+</script>
